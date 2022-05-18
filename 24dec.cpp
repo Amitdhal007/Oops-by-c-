@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int arr[7];
+    int arr[6];
     int sum=0;
 
-      cout << "Enter 7 numbers: " << endl;
+      cout << "Enter 6 numbers: " << endl;
 
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 6; i++) {
         cin >> arr[i];
 
         sum+=arr[i];
